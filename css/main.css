@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html, body {
+  margin: 0px;
+}
+
+body {
+	background: #ffdccc;
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+	body {
+    background: #99ccff;
+  }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+	body {
+		background: #8cd9b3
+	}
+}
